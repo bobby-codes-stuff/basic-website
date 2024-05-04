@@ -2,7 +2,7 @@
     outline: 2px solid red;
 } */
 
-a, .secondary-text, .img-placeholder{
+a, .secondary-text, .img-placeholder, .footer{
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
@@ -23,7 +23,10 @@ ul {
     margin: 0;
 }
 
-
+.action-block {
+    background-color: #f9faf8;
+    padding: 120px 400px 120px 400px;
+}
 
 .box-outline {
     width: 160px;
@@ -42,6 +45,17 @@ ul {
     color: #e5e7eb;
     font-weight: bold;
     padding: 8px 16px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footnote {
+    margin: 32px;
 }
 
 .header-block {
@@ -154,4 +168,43 @@ ul {
     display: flex;
     flex-direction: column;
     padding: 120px 560px 120px 560px;
+}
+
+.second-button {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sign-text {
+    color: #e5e7eb;
+}
+
+.sign-text-msg {
+    padding: 0;
+    margin: 0;
+}
+
+.sign-text-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    color: #f9faf8;
+}
+
+.sign-up-sign {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 48px 160px;
 }
